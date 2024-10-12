@@ -5,6 +5,7 @@ class ZeroRuleModel:
         self.dataset = dataset
         self.target_column = target_column
         self.major_class = self.load_major_class()
+        print("major_class: " + self.major_class)
 
     def load_major_class(self):
         result = subprocess.run(
