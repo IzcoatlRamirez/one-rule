@@ -1,0 +1,19 @@
+para crear el entorno virtual:
+  
+  python3 -m venv datamining 
+
+para activar el entorno virtual:
+
+  source datamining/bin/activate
+
+para desactivar:
+
+  deactivate
+
+generar archivo de dependencias:
+
+  pip freeze > requirements.txt
+
+instalar dependencias desde archivo:
+
+  pip install -r requirements.txt
